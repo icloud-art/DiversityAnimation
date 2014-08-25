@@ -19,6 +19,7 @@
 		CB2BEA6B19AB1253004C1470 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB2BEA5319AB1253004C1470 /* UIKit.framework */; };
 		CB2BEA7319AB1253004C1470 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB2BEA7119AB1253004C1470 /* InfoPlist.strings */; };
 		CB2BEA7519AB1253004C1470 /* DiversityAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2BEA7419AB1253004C1470 /* DiversityAnimationTests.m */; };
+		CB2BEA8019AB1325004C1470 /* LYHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2BEA7F19AB1325004C1470 /* LYHRootViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		CB2BEA7019AB1253004C1470 /* DiversityAnimationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DiversityAnimationTests-Info.plist"; sourceTree = "<group>"; };
 		CB2BEA7219AB1253004C1470 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB2BEA7419AB1253004C1470 /* DiversityAnimationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiversityAnimationTests.m; sourceTree = "<group>"; };
+		CB2BEA7E19AB1325004C1470 /* LYHRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYHRootViewController.h; sourceTree = "<group>"; };
+		CB2BEA7F19AB1325004C1470 /* LYHRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHRootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				CB2BEA5E19AB1253004C1470 /* LYHAppDelegate.h */,
 				CB2BEA5F19AB1253004C1470 /* LYHAppDelegate.m */,
+				CB2BEA7E19AB1325004C1470 /* LYHRootViewController.h */,
+				CB2BEA7F19AB1325004C1470 /* LYHRootViewController.m */,
 				CB2BEA6119AB1253004C1470 /* Images.xcassets */,
 				CB2BEA5619AB1253004C1470 /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB2BEA6019AB1253004C1470 /* LYHAppDelegate.m in Sources */,
+				CB2BEA8019AB1325004C1470 /* LYHRootViewController.m in Sources */,
 				CB2BEA5C19AB1253004C1470 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -442,6 +448,7 @@
 				CB2BEA7A19AB1253004C1470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CB2BEA7B19AB1253004C1470 /* Build configuration list for PBXNativeTarget "DiversityAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +457,7 @@
 				CB2BEA7D19AB1253004C1470 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
