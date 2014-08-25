@@ -7,13 +7,16 @@
 //
 
 #import "LYHAppDelegate.h"
-
+#import "LYHRootViewController.h"
 @implementation LYHAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    // Override point for customization after application launch.
+ 
+    LYHRootViewController * rootView = [[LYHRootViewController alloc]init];
+    UINavigationController * navCtrl = [[UINavigationController alloc]initWithRootViewController:rootView];
+    self.window.rootViewController = navCtrl;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
