@@ -21,6 +21,8 @@
 		CB2BEA7519AB1253004C1470 /* DiversityAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2BEA7419AB1253004C1470 /* DiversityAnimationTests.m */; };
 		CB2BEA8019AB1325004C1470 /* LYHRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2BEA7F19AB1325004C1470 /* LYHRootViewController.m */; };
 		CB2BEA8319AB161A004C1470 /* AnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB2BEA8219AB161A004C1470 /* AnimationViewController.m */; };
+		CB2BEA8519AB18C3004C1470 /* ball@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB2BEA8419AB18C3004C1470 /* ball@2x.png */; };
+		CB2BEA8719AB18C9004C1470 /* beijing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB2BEA8619AB18C9004C1470 /* beijing.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,8 @@
 		CB2BEA7F19AB1325004C1470 /* LYHRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYHRootViewController.m; sourceTree = "<group>"; };
 		CB2BEA8119AB161A004C1470 /* AnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationViewController.h; sourceTree = "<group>"; };
 		CB2BEA8219AB161A004C1470 /* AnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationViewController.m; sourceTree = "<group>"; };
+		CB2BEA8419AB18C3004C1470 /* ball@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ball@2x.png"; sourceTree = "<group>"; };
+		CB2BEA8619AB18C9004C1470 /* beijing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = beijing.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +132,8 @@
 		CB2BEA5619AB1253004C1470 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CB2BEA8619AB18C9004C1470 /* beijing.jpg */,
+				CB2BEA8419AB18C3004C1470 /* ball@2x.png */,
 				CB2BEA5719AB1253004C1470 /* DiversityAnimation-Info.plist */,
 				CB2BEA5819AB1253004C1470 /* InfoPlist.strings */,
 				CB2BEA5B19AB1253004C1470 /* main.m */,
@@ -232,6 +238,8 @@
 			files = (
 				CB2BEA5A19AB1253004C1470 /* InfoPlist.strings in Resources */,
 				CB2BEA6219AB1253004C1470 /* Images.xcassets in Resources */,
+				CB2BEA8719AB18C9004C1470 /* beijing.jpg in Resources */,
+				CB2BEA8519AB18C3004C1470 /* ball@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

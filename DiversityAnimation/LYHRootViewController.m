@@ -33,7 +33,7 @@
     tableView.dataSource = self;
     self.mTableView = tableView;
     [self.view addSubview:self.mTableView];
-    NSArray * array = @[@"基本动画:CABasicAnimation",@"多不动画:CAKeyframeAnimation",@"沿路径的动画:CAKeyframeAnimation",@"时间函数:CAMediaTimingFunction",@"动画组"];
+    NSArray * array = @[@"基本动画:CABasicAnimation",@"多步动画:CAKeyframeAnimation",@"沿路径的动画:CAKeyframeAnimation",@"时间函数:CAMediaTimingFunction",@"动画组",@"抖动动画"];
     self.mArrayData = array;
     self.title = @"动画例子";
 }
@@ -61,7 +61,9 @@
 }
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
+    UITableViewCell * cell = (UITableViewCell *)[tableView cellForRowAtIndexPath:indexPath];
     AnimationViewController * animationView = [[AnimationViewController alloc]init];
+    animationView.mAnimationType = cell.textLabel.text;
     [self.navigationController pushViewController:animationView animated:YES];
 }
 

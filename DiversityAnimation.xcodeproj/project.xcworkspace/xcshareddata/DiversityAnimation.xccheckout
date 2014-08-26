@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D9F3A6E2-07BB-497B-BC4E-EF704581A5B5</string>
+	<key>IDESourceControlProjectName</key>
+	<string>DiversityAnimation</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EDE8BD5F-3F11-4717-86AE-FBB6F2E59E43</key>
+		<string>https://github.com/TheBlackApple/DiversityAnimation.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>DiversityAnimation.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EDE8BD5F-3F11-4717-86AE-FBB6F2E59E43</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/TheBlackApple/DiversityAnimation.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EDE8BD5F-3F11-4717-86AE-FBB6F2E59E43</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EDE8BD5F-3F11-4717-86AE-FBB6F2E59E43</string>
+			<key>IDESourceControlWCCName</key>
+			<string>DiversityAnimation</string>
+		</dict>
+	</array>
+</dict>
+</plist>

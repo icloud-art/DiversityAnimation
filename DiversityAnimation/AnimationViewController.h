@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface AnimationViewController : UIViewController
+@property (strong,nonatomic) NSString * mAnimationType;
 
 @end
